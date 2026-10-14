@@ -1,13 +1,13 @@
-# Can an LLM read climate policy? A one-class annotation lab
+# Module 2: Text as data and LLM annotation
 
-**Framing question:** *Do national climate laws and policies commit to concrete, measurable targets,
+**Question:** *Do national climate laws and policies commit to concrete, measurable targets,
 and does this differ between countries and regions?* Answering it at scale would mean letting a
 model read thousands of documents. The lab asks whether we could trust that reading.
 
 Students and two small open-weights LLMs decide whether passages from national climate policies
 contain a **climate target** (quantifiable, with a deadline), then compare against expert labels
 from [Climate Policy Radar](https://huggingface.co/datasets/ClimatePolicyRadar/national-climate-targets).
-Everything is in one notebook, `lab.qmd`, and runs on the laptop. 
+Everything is in one notebook, `module2.qmd`, and runs on the laptop. 
 
 Companion reading: Lan, Zhang & Wang (2026), *Humanities and Social Sciences Communications*,
 https://doi.org/10.1057/s41599-026-08575-0.
@@ -47,7 +47,7 @@ loads automatically. Without it, students run a 20-passage version in class.
 
 ## The lab
 
-Students work through `lab.qmd` at their own pace, in pairs
+Students work through `module2.qmd` at their own pace, in pairs
 
 | Section | What students do |
 | --- | --- |

@@ -1,7 +1,7 @@
 # Country swap at scale
 # =====================
 #
-# Section 7 of lab.qmd asks a model the same question about one passage several times, changing
+# Section 7 of module2.qmd asks a model the same question about one passage several times, changing
 # only the country name. This script does the same for every passage in data/target_pool.csv, so
 # we can see whether the pattern holds across hundreds of passages rather than one.
 #
@@ -42,7 +42,7 @@ ask_model <- function(model, prompt) {
 }
 
 # Ask the model how likely `country` is to achieve what the passage describes, on a 1-5 scale.
-# This is the same prompt as in lab.qmd, so the results are comparable.
+# This is the same prompt as in module2.qmd, so the results are comparable.
 # Returns NA if the model's reply can't be read as a number between 1 and 5.
 swap_score <- function(text, country, model = MODEL) {
   p <- paste0("This passage is from a climate policy published by the government of ", country,
